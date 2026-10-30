@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — GitWallet</title>
+<meta name="description" content="Privacy Policy for GitWallet website and Android app.">
+<meta name="theme-color" content="#0d1117">
+<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=17">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="icon.png" alt="">GitWallet</a>
+    <div class="nav-right">
+      <div class="lang" role="group" aria-label="Language">
+        <button data-lang="ru" class="on" type="button">RU</button>
+        <button data-lang="en" type="button">EN</button>
+      </div>
+      <a class="btn btn-green btn-sm" href="index.html#get" data-i18n="nav.get">Скачать</a>
+    </div>
+  </div>
+</header>
+
+<main class="legal">
+  <div class="wrap narrow">
+    <a class="legal-back" href="index.html" data-i18n="priv.back">← На сайт</a>
+    <h1 data-i18n="priv.h1">Политика конфиденциальности</h1>
+    <p class="legal-updated" data-i18n="priv.updated">Обновлено: 28 октября 2026</p>
+
+    <section>
+      <h2 data-i18n="priv.s1h">Кто мы</h2>
+      <p data-i18n="priv.s1p">GitWallet — некастодиальный криптокошелёк и сайт <a href="https://gitwallet.net/">gitwallet.net</a>. Контакты поддержки: <a href="mailto:gitwallet.official@gmail.com">gitwallet.official@gmail.com</a>.</p>
+    </section>
+
+    <section>
+      <h2 data-i18n="priv.s2h">Что мы не собираем</h2>
+      <p data-i18n="priv.s2p">Мы не получаем и не храним вашу секретную фразу, приватные ключи и PIN. Они остаются только на вашем устройстве. GitWallet не просит регистрацию по почте, телефону или документам.</p>
+    </section>
+
+    <section>
+      <h2 data-i18n="priv.s3h">Что может обрабатываться</h2>
+      <ul>
+        <li data-i18n="priv.s3a"><b>Сайт.</b> Технические данные при открытии страницы (IP, страна, браузер, страница, реферер) — чтобы понимать посещаемость и защищать сервис. Это не связано с ключами кошелька.</li>
+        <li data-i18n="priv.s3b"><b>Поддержка.</b> Если вы пишете на почту или в X, мы видим то, что вы сами отправили.</li>
+        <li data-i18n="priv.s3c"><b>Сторонние сервисы в приложении.</b> Обмены, биржи, Hyperliquid, ИИ-провайдеры (Gemini, DeepSeek, ChatGPT, Claude) работают по своим правилам. Их ключи API, если вы их вводите, хранятся у вас на устройстве или используются только для выбранной функции.</li>
+        <li data-i18n="priv.s3d"><b>Блокчейн.</b> Адреса и транзакции публичны в сетях, которыми вы пользуетесь. Это не наша база данных.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 data-i18n="priv.s4h">Зачем это нужно</h2>
+      <p data-i18n="priv.s4p">Чтобы показывать сайт, отвечать на обращения, улучшать продукт и предотвращать злоупотребления. Мы не продаём персональные данные.</p>
+    </section>
+
+    <section>
+      <h2 data-i18n="priv.s5h">Хранение</h2>
+      <p data-i18n="priv.s5p">Ключи кошелька на наших серверах не хранятся. Технические логи сайта хранятся ограниченное время и затем удаляются или обезличиваются.</p>
+    </section>
+
+    <section>
+      <h2 data-i18n="priv.s6h">Дети</h2>
+      <p data-i18n="priv.s6p">Сервис не предназначен для лиц младше 18 лет.</p>
+    </section>
+
+    <section>
+      <h2 data-i18n="priv.s7h">Изменения</h2>
+      <p data-i18n="priv.s7p">Мы можем обновлять эту страницу. Актуальная версия всегда здесь: <a href="https://gitwallet.net/privacy.html">gitwallet.net/privacy.html</a>.</p>
+    </section>
+
+    <section>
+      <h2 data-i18n="priv.s8h">Связь</h2>
+      <p data-i18n="priv.s8p">Вопросы по конфиденциальности: <a href="mailto:gitwallet.official@gmail.com">gitwallet.official@gmail.com</a>.</p>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-bottom" style="margin-top:0">
+      <span>© <span id="year"></span> GitWallet. <a href="privacy.html" data-i18n="ft.privacy">Конфиденциальность</a></span>
+      <a href="index.html" data-i18n="priv.back">← На сайт</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  const EN = {
+    'nav.get': 'Download',
+    'priv.back': '← Back to site',
+    'priv.h1': 'Privacy Policy',
+    'priv.updated': 'Updated: October 28, 2026',
+    'priv.s1h': 'Who we are',
+    'priv.s1p': 'GitWallet is a non-custodial crypto wallet and the website <a href="https://gitwallet.net/">gitwallet.net</a>. Support: <a href="mailto:gitwallet.official@gmail.com">gitwallet.official@gmail.com</a>.',
+    'priv.s2h': 'What we do not collect',
+    'priv.s2p': 'We do not receive or store your seed phrase, private keys, or PIN. They stay only on your device. GitWallet does not ask for email, phone, or ID registration.',
+    'priv.s3h': 'What may be processed',
+    'priv.s3a': '<b>Website.</b> Technical data when you open a page (IP, country, browser, path, referrer) to understand traffic and protect the service. This is unrelated to wallet keys.',
+    'priv.s3b': '<b>Support.</b> If you email us or write on X, we see what you send.',
+    'priv.s3c': '<b>Third-party services in the app.</b> Swaps, exchanges, Hyperliquid, and AI providers (Gemini, DeepSeek, ChatGPT, Claude) follow their own policies. API keys you enter stay on your device or are used only for the feature you choose.',
+    'priv.s3d': '<b>Blockchain.</b> Addresses and transactions are public on the networks you use. That is not our database.',
+    'priv.s4h': 'Why we process data',
+    'priv.s4p': 'To run the site, answer requests, improve the product, and prevent abuse. We do not sell personal data.',
+    'priv.s5h': 'Retention',
+    'priv.s5p': 'Wallet keys are not stored on our servers. Technical site logs are kept for a limited time and then deleted or anonymized.',
+    'priv.s6h': 'Children',
+    'priv.s6p': 'The service is not intended for people under 18.',
+    'priv.s7h': 'Changes',
+    'priv.s7p': 'We may update this page. The current version is always at <a href="https://gitwallet.net/privacy.html">gitwallet.net/privacy.html</a>.',
+    'priv.s8h': 'Contact',
+    'priv.s8p': 'Privacy questions: <a href="mailto:gitwallet.official@gmail.com">gitwallet.official@gmail.com</a>.',
+    'ft.privacy': 'Privacy',
+  };
+  const RU = {};
+  document.querySelectorAll('[data-i18n]').forEach((el) => (RU[el.dataset.i18n] = el.innerHTML));
+  function render(lang) {
+    document.documentElement.lang = lang;
+    document.querySelectorAll('[data-i18n]').forEach((el) => {
+      const k = el.dataset.i18n;
+      el.innerHTML = lang === 'en' ? (EN[k] ?? RU[k]) : RU[k];
+    });
+    document.querySelectorAll('.lang button').forEach((b) => b.classList.toggle('on', b.dataset.lang === lang));
+    try { localStorage.setItem('gw.site.lang', lang); } catch (e) {}
+  }
+  document.querySelectorAll('.lang button').forEach((b) => b.addEventListener('click', () => render(b.dataset.lang)));
+  let start = 'ru';
+  try { start = localStorage.getItem('gw.site.lang') || (navigator.language.startsWith('ru') || navigator.language.startsWith('uk') ? 'ru' : 'en'); } catch (e) {}
+  render(start === 'en' ? 'en' : 'ru');
+  document.getElementById('year').textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
